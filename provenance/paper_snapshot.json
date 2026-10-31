@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-31",
+  "manuscript_sha256": "aa76ed176608323f896a2e0ff83ec8eac02090a9812d4b4c1c5847ca2cfd8348",
+  "scope": "Current shared-encoder MC-HGNet; oxygen age/sex P1; S/BP D10",
+  "recipe_entries": 280,
+  "neural_checkpoints_included": false,
+  "raw_or_processed_datasets_included": false,
+  "release_version": "0.1.1",
+  "preprocessing_mode": "fit_training_fold",
+  "fitted_preprocessing_included": false
+}

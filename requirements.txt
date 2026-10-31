@@ -1,0 +1,18 @@
+# Python 3.11. For a CUDA installation, install torch/torchvision from the
+# official PyTorch cu121 wheel index first (see README).
+torch==2.5.1
+torchvision==0.20.1
+numpy==2.4.3
+scipy==1.17.1
+pandas==3.0.1
+scikit-learn==1.8.0
+timm==0.9.16
+einops==0.8.2
+wfdb==4.2.0
+transformers==4.51.3
+huggingface-hub==0.35.3
+tokenizers==0.21.4
+safetensors==0.6.2
+matplotlib==3.10.8
+PyWavelets==1.8.0
+tqdm==4.67.1

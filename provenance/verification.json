@@ -1,0 +1,493 @@
+{
+  "date": "2026-10-31",
+  "version": "0.1.1",
+  "preprocessing_mode": "fit_training_fold",
+  "fitted_preprocessing_files": 0,
+  "default_preparation": [
+    {
+      "dataset": "openox",
+      "source": "official downloaded files",
+      "released_fitted_assets_used": false,
+      "default_preparation_passed": true,
+      "checks": [
+        {
+          "task": "openox_spo2",
+          "fold": 0,
+          "train": 436,
+          "validation": 107,
+          "test": 123,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        },
+        {
+          "task": "openox_spo2",
+          "fold": 1,
+          "train": 435,
+          "validation": 108,
+          "test": 123,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        },
+        {
+          "task": "openox_spo2",
+          "fold": 2,
+          "train": 435,
+          "validation": 108,
+          "test": 123,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        },
+        {
+          "task": "openox_spo2",
+          "fold": 3,
+          "train": 436,
+          "validation": 107,
+          "test": 123,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        },
+        {
+          "task": "openox_spo2",
+          "fold": 4,
+          "train": 435,
+          "validation": 108,
+          "test": 123,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        },
+        {
+          "task": "openox_sao2",
+          "fold": 0,
+          "train": 436,
+          "validation": 107,
+          "test": 123,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        },
+        {
+          "task": "openox_sao2",
+          "fold": 1,
+          "train": 435,
+          "validation": 108,
+          "test": 123,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        },
+        {
+          "task": "openox_sao2",
+          "fold": 2,
+          "train": 435,
+          "validation": 108,
+          "test": 123,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        },
+        {
+          "task": "openox_sao2",
+          "fold": 3,
+          "train": 436,
+          "validation": 107,
+          "test": 123,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        },
+        {
+          "task": "openox_sao2",
+          "fold": 4,
+          "train": 435,
+          "validation": 108,
+          "test": 123,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        }
+      ]
+    },
+    {
+      "dataset": "crhe",
+      "source": "official downloaded files",
+      "released_fitted_assets_used": false,
+      "default_preparation_passed": true,
+      "checks": [
+        {
+          "task": "bp_joint",
+          "fold": 0,
+          "train": 2705,
+          "validation": 683,
+          "test": 788,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        },
+        {
+          "task": "bp_joint",
+          "fold": 1,
+          "train": 2725,
+          "validation": 663,
+          "test": 788,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        },
+        {
+          "task": "bp_joint",
+          "fold": 2,
+          "train": 2715,
+          "validation": 673,
+          "test": 788,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        },
+        {
+          "task": "bp_joint",
+          "fold": 3,
+          "train": 2707,
+          "validation": 681,
+          "test": 788,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        },
+        {
+          "task": "bp_joint",
+          "fold": 4,
+          "train": 2700,
+          "validation": 688,
+          "test": 788,
+          "train_only_fit": true,
+          "fresh_text": true,
+          "split_and_history_unchanged": true
+        }
+      ]
+    }
+  ],
+  "installation": {
+    "version": "0.1.1",
+    "wheel_verified": true,
+    "fitted_preprocessing_files": 0,
+    "configuration_entries": 280,
+    "unit_tests": 7,
+    "cli_help": [
+      "prepare",
+      "train",
+      "evaluate",
+      "report",
+      "launch",
+      "fetch"
+    ]
+  },
+  "prior_model_compatibility": {
+    "input_scope": "Archived input preprocessing supplied locally during initial extraction; not distributed or used by the default pipeline",
+    "encoders": [
+      {
+        "encoder": "moderntcn",
+        "dataset": "bp_joint",
+        "variant": "full",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "device": "cpu",
+        "prediction_max_absolute_error": 5.594364324679191e-06
+      },
+      {
+        "encoder": "moderntcn",
+        "dataset": "bp_joint",
+        "variant": "baseline",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "device": "cpu",
+        "prediction_max_absolute_error": 7.459152413957781e-06
+      },
+      {
+        "encoder": "srformer",
+        "dataset": "bp_joint",
+        "variant": "baseline",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "device": "cuda:0",
+        "prediction_max_absolute_error": 0.0002288818359375
+      },
+      {
+        "encoder": "srformer",
+        "dataset": "bp_joint",
+        "variant": "full",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "device": "cuda:0",
+        "prediction_max_absolute_error": 1.52587890625e-05
+      },
+      {
+        "encoder": "anyppg",
+        "dataset": "openox_spo2",
+        "variant": "baseline",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 0.0008450472308823009
+      },
+      {
+        "encoder": "anyppg",
+        "dataset": "openox_spo2",
+        "variant": "full",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 0.0007063862301492918
+      },
+      {
+        "encoder": "moderntcn",
+        "dataset": "openox_spo2",
+        "variant": "baseline",
+        "fold": 0,
+        "measurements": 123,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 7.610895409015939e-06
+      },
+      {
+        "encoder": "moderntcn",
+        "dataset": "openox_spo2",
+        "variant": "full",
+        "fold": 0,
+        "measurements": 123,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 1.9027238522539847e-05
+      },
+      {
+        "encoder": "papagei_pretrained",
+        "dataset": "openox_spo2",
+        "variant": "baseline",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 0.000865739352775563
+      },
+      {
+        "encoder": "papagei_pretrained",
+        "dataset": "openox_spo2",
+        "variant": "full",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 0.0015374008726212196
+      },
+      {
+        "encoder": "pulseppg",
+        "dataset": "openox_spo2",
+        "variant": "baseline",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 0.0016910458236907289
+      },
+      {
+        "encoder": "pulseppg",
+        "dataset": "openox_spo2",
+        "variant": "full",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 0.0015935312262627122
+      },
+      {
+        "encoder": "sigmappg",
+        "dataset": "openox_spo2",
+        "variant": "baseline",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 4.875729871400836e-06
+      },
+      {
+        "encoder": "sigmappg",
+        "dataset": "openox_spo2",
+        "variant": "full",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 5.708171556761954e-06
+      },
+      {
+        "encoder": "srformer",
+        "dataset": "openox_spo2",
+        "variant": "baseline",
+        "fold": 0,
+        "measurements": 123,
+        "checkpoint_strict_load": true,
+        "device": "cuda:0",
+        "prediction_max_absolute_error": 0.0
+      },
+      {
+        "encoder": "srformer",
+        "dataset": "openox_spo2",
+        "variant": "full",
+        "fold": 0,
+        "measurements": 123,
+        "checkpoint_strict_load": true,
+        "device": "cuda:0",
+        "prediction_max_absolute_error": 0.0
+      },
+      {
+        "encoder": "timefilter",
+        "dataset": "openox_spo2",
+        "variant": "baseline",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 4.756809630634962e-06
+      },
+      {
+        "encoder": "timefilter",
+        "dataset": "openox_spo2",
+        "variant": "full",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 4.043288186039717e-06
+      }
+    ],
+    "ablations": [
+      {
+        "dataset": "bp_joint",
+        "encoder": "srformer",
+        "variant": "full",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 1.52587890625e-05,
+        "device": "cuda:0"
+      },
+      {
+        "dataset": "bp_joint",
+        "encoder": "srformer",
+        "variant": "no_history",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 1.52587890625e-05,
+        "device": "cuda:0"
+      },
+      {
+        "dataset": "bp_joint",
+        "encoder": "srformer",
+        "variant": "no_pairs",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 1.52587890625e-05,
+        "device": "cuda:0"
+      },
+      {
+        "dataset": "bp_joint",
+        "encoder": "srformer",
+        "variant": "no_graph",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 1.52587890625e-05,
+        "device": "cuda:0"
+      },
+      {
+        "dataset": "openox_sao2",
+        "encoder": "moderntcn",
+        "variant": "full",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 7.467333205113391e-06,
+        "device": "cuda:0"
+      },
+      {
+        "dataset": "openox_sao2",
+        "encoder": "moderntcn",
+        "variant": "no_graph",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 4.729311029905148e-06,
+        "device": "cuda:0"
+      },
+      {
+        "dataset": "openox_sao2",
+        "encoder": "moderntcn",
+        "variant": "no_history",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 9.458622059810295e-06,
+        "device": "cuda:0"
+      },
+      {
+        "dataset": "openox_sao2",
+        "encoder": "moderntcn",
+        "variant": "no_pairs",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 5.164905459764668e-06,
+        "device": "cuda:0"
+      },
+      {
+        "dataset": "openox_spo2",
+        "encoder": "moderntcn",
+        "variant": "full",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 4.2811286675714655e-06,
+        "device": "cuda:0"
+      },
+      {
+        "dataset": "openox_spo2",
+        "encoder": "moderntcn",
+        "variant": "no_graph",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 1.9027238522539847e-06,
+        "device": "cuda:0"
+      },
+      {
+        "dataset": "openox_spo2",
+        "encoder": "moderntcn",
+        "variant": "no_history",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 8.086576372079435e-06,
+        "device": "cuda:0"
+      },
+      {
+        "dataset": "openox_spo2",
+        "encoder": "moderntcn",
+        "variant": "no_pairs",
+        "fold": 0,
+        "measurements": 8,
+        "checkpoint_strict_load": true,
+        "prediction_max_absolute_error": 2.854085778380977e-06,
+        "device": "cuda:0"
+      }
+    ],
+    "resume": {
+      "updates": 2,
+      "exact_parameter_and_buffer_match": true,
+      "exact_history_match": true,
+      "before_selection_checkpoint_supported": true,
+      "smoke_only": true
+    }
+  },
+  "full_training_matrix_rerun": false,
+  "private_glucose_redistributed": false
+}

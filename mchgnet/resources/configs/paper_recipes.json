@@ -1,0 +1,7322 @@
+{
+  "glucose/pulseppg/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/papagei_pretrained/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 64,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/anyppg/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/sigmappg/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/moderntcn/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/timefilter/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/srformer/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 8,
+      "epochs": 300,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "evaluate_every": 60,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/pulseppg/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/papagei_pretrained/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/anyppg/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/sigmappg/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/moderntcn/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/timefilter/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/pulseppg/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/papagei_pretrained/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 64,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/anyppg/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/sigmappg/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/moderntcn/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/timefilter/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/srformer/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 8,
+      "epochs": 300,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "evaluate_every": 60,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/pulseppg/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/papagei_pretrained/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/anyppg/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/sigmappg/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/moderntcn/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/timefilter/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/pulseppg/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/papagei_pretrained/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 64,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/anyppg/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/sigmappg/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/moderntcn/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/timefilter/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/srformer/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 8,
+      "epochs": 300,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "evaluate_every": 60,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/pulseppg/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/papagei_pretrained/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/anyppg/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/sigmappg/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/moderntcn/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/timefilter/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/pulseppg/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/papagei_pretrained/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 64,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/anyppg/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/sigmappg/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/moderntcn/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/timefilter/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/srformer/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 8,
+      "epochs": 300,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "evaluate_every": 60,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/pulseppg/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/papagei_pretrained/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/anyppg/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/sigmappg/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/moderntcn/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/timefilter/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/pulseppg/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/papagei_pretrained/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 64,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/anyppg/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/sigmappg/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/moderntcn/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/timefilter/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/srformer/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 8,
+      "epochs": 300,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "evaluate_every": 60,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/pulseppg/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/papagei_pretrained/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/anyppg/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/sigmappg/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/moderntcn/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/timefilter/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/pulseppg/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/papagei_pretrained/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 64,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/anyppg/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/sigmappg/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/moderntcn/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/timefilter/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/srformer/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 8,
+      "epochs": 300,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "evaluate_every": 60,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/pulseppg/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/papagei_pretrained/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 64,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/sigmappg/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/moderntcn/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/timefilter/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/srformer/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 8,
+      "epochs": 300,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "evaluate_every": 60,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/pulseppg/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/papagei_pretrained/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 64,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/sigmappg/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/moderntcn/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/timefilter/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/srformer/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 8,
+      "epochs": 300,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "evaluate_every": 60,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/pulseppg/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/papagei_pretrained/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 64,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/sigmappg/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/moderntcn/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/timefilter/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/srformer/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 8,
+      "epochs": 300,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "evaluate_every": 60,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/pulseppg/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/papagei_pretrained/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 64,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/sigmappg/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/moderntcn/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/timefilter/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/srformer/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 8,
+      "epochs": 300,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "evaluate_every": 60,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/pulseppg/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/papagei_pretrained/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/anyppg/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/sigmappg/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/moderntcn/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/timefilter/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/srformer/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/pulseppg/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/papagei_pretrained/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/anyppg/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/sigmappg/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/moderntcn/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/timefilter/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/srformer/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/pulseppg/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/papagei_pretrained/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/anyppg/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/sigmappg/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/moderntcn/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/timefilter/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/srformer/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/pulseppg/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/papagei_pretrained/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/anyppg/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/sigmappg/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/moderntcn/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/timefilter/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/srformer/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/pulseppg/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/papagei_pretrained/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/anyppg/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/sigmappg/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/moderntcn/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/timefilter/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "windows_hb": 1,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 0.0003,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/srformer/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/anyppg/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/anyppg/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/anyppg/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "glucose/anyppg/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 32,
+      "epochs": 300,
+      "steps": 8,
+      "updates": 2400,
+      "nominal_updates": 2400,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 240,
+      "lr_interval": 12,
+      "evaluate_every": 60
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/pulseppg/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/pulseppg/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/pulseppg/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "dropout": 0.1,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/pulseppg/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "dropout": 0.1,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/papagei_pretrained/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/papagei_pretrained/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/papagei_pretrained/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/papagei_pretrained/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/anyppg/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/anyppg/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/anyppg/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/anyppg/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/sigmappg/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/sigmappg/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/sigmappg/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/sigmappg/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/timefilter/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/timefilter/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/timefilter/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/timefilter/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/moderntcn/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/moderntcn/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/moderntcn/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/moderntcn/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/srformer/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/srformer/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/srformer/baseline/fold0": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/srformer/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/pulseppg/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/pulseppg/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/pulseppg/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "dropout": 0.1,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/pulseppg/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "dropout": 0.1,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/papagei_pretrained/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/papagei_pretrained/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/papagei_pretrained/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/papagei_pretrained/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/anyppg/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/anyppg/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/anyppg/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/anyppg/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/sigmappg/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/sigmappg/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/sigmappg/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/sigmappg/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/timefilter/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/timefilter/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/timefilter/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/timefilter/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/moderntcn/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/moderntcn/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/moderntcn/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/moderntcn/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/srformer/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/srformer/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/srformer/baseline/fold1": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/srformer/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/pulseppg/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/pulseppg/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/pulseppg/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "dropout": 0.1,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/pulseppg/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "dropout": 0.1,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/papagei_pretrained/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/papagei_pretrained/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/papagei_pretrained/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/papagei_pretrained/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/anyppg/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/anyppg/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/anyppg/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/anyppg/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/sigmappg/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/sigmappg/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/sigmappg/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/sigmappg/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/timefilter/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/timefilter/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/timefilter/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/timefilter/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/moderntcn/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/moderntcn/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/moderntcn/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/moderntcn/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/srformer/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/srformer/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/srformer/baseline/fold2": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/srformer/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/pulseppg/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/pulseppg/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/pulseppg/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "dropout": 0.1,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/pulseppg/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "dropout": 0.1,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/papagei_pretrained/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/papagei_pretrained/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/papagei_pretrained/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/papagei_pretrained/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/anyppg/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/anyppg/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/anyppg/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/anyppg/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/sigmappg/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/sigmappg/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/sigmappg/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/sigmappg/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/timefilter/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/timefilter/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/timefilter/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/timefilter/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/moderntcn/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/moderntcn/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/moderntcn/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/moderntcn/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/srformer/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/srformer/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/srformer/baseline/fold3": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/srformer/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/pulseppg/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/pulseppg/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/pulseppg/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "dropout": 0.1,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/pulseppg/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "dropout": 0.1,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/papagei_pretrained/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/papagei_pretrained/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/papagei_pretrained/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/papagei_pretrained/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0001,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/anyppg/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/anyppg/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/anyppg/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/anyppg/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-06,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/sigmappg/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/sigmappg/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/sigmappg/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/sigmappg/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.0003,
+      "encoder_lr": 3e-05,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/timefilter/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/timefilter/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/timefilter/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/timefilter/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.0001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/moderntcn/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/moderntcn/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/moderntcn/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/moderntcn/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "microbatch": 128,
+      "epochs": 250,
+      "steps": 4,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "windows_hb": 2,
+      "clip": 5.0,
+      "warmup_updates": 100,
+      "lr_interval": 10,
+      "evaluate_every": 50
+    },
+    "profile": {
+      "lr": 0.001,
+      "encoder_lr": 0.001,
+      "weight_decay": 0.001,
+      "aux": 0.25,
+      "beta": 1.0,
+      "mse": 0.0,
+      "smoothing": 0.0,
+      "dropout": 0.1
+    },
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/srformer/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_spo2/srformer/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/srformer/baseline/fold4": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "concat"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "openox_sao2/srformer/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 4,
+      "epochs": 250,
+      "updates": 1000,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.0
+  },
+  "bp_joint/srformer/full/fold0": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.1
+  },
+  "bp_joint/srformer/full/fold1": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.1
+  },
+  "bp_joint/srformer/full/fold2": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.1
+  },
+  "bp_joint/srformer/full/fold3": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.1
+  },
+  "bp_joint/srformer/full/fold4": {
+    "settings": {
+      "batch": 128,
+      "record_microbatch": 32,
+      "steps": 22,
+      "epochs": 46,
+      "updates": 1012,
+      "nominal_updates": 1000,
+      "evaluate_every": 50,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "step_lr_epochs": 10,
+      "step_lr_gamma": 0.9,
+      "gradient_clip": 1.0,
+      "identity_contrast_weight": 0.1,
+      "method": "history_graph"
+    },
+    "profile": {},
+    "seed": 2026,
+    "srformer_dropout": 0.1
+  }
+}

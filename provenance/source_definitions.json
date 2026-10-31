@@ -1,0 +1,123 @@
+[
+  {
+    "source": "field_graph_model.py",
+    "sha256": "6eef1c0cbb11784370738e27bf539537c41b0b56f32b4b72afcddb38ca014ff2",
+    "definitions": [
+      "FieldFusion"
+    ]
+  },
+  {
+    "source": "pair_relation_model.py",
+    "sha256": "985cb7b6f11047adfd90aa20204011417862ffbfbb9a10ca5a4c2af0b8b2fa89",
+    "definitions": [
+      "PairFusion"
+    ]
+  },
+  {
+    "source": "pair_refine_model.py",
+    "sha256": "8adf8a4e560aadcc34819c8cb42aeefd9227c18223bbfec5537441573aad5468",
+    "definitions": [
+      "PairRefinement"
+    ]
+  },
+  {
+    "source": "history_query_model.py",
+    "sha256": "4d8ca6280fe99f3436a8f6b485003987e7f902e5c4a1411f8976fdcd67ffcc00",
+    "definitions": [
+      "HistoryAdapter"
+    ]
+  },
+  {
+    "source": "oxygen_pair_condition_model_20261028.py",
+    "sha256": "788da819ace1c619d0b2d439a43d28feab82140f1036e98a8845dad58f38f6a2",
+    "definitions": [
+      "PairConditionCalibration",
+      "PairConditionFusion"
+    ]
+  },
+  {
+    "source": "shared_core_ablation_model_20261027.py",
+    "sha256": "9ade82372ca64f6efdd438a4c678597dabe51d6f4eaaf49a3e4562e4c9a8133c",
+    "definitions": [
+      "band_only_history",
+      "ChannelOnlyFusion",
+      "PairOnlyFusion"
+    ]
+  },
+  {
+    "source": "oxygen_pair_condition_ablation_model_20261028.py",
+    "sha256": "bab3a83ee25465760c23232cb21b416938fac586c494bb54b20c6dc0f740483b",
+    "definitions": [
+      "IdentityCurrentFusion"
+    ]
+  },
+  {
+    "source": "papagei_transfer.py",
+    "sha256": "9aa2a12d0ce634a41e5c9f2e92749363d31d3bc76581de8b04ba372c191fa843",
+    "definitions": [
+      "official_class",
+      "official_model"
+    ]
+  },
+  {
+    "source": "ppg_text_vendors.py",
+    "sha256": "4f8f0ba3f2b00a3b1483d3231df8b94a42ef903e88118c904b5ee9f405f535f3",
+    "definitions": [
+      "load_author_file",
+      "RestrictedCheckpoint",
+      "sigma_checkpoint",
+      "PapaFeatures",
+      "author_class",
+      "foundation"
+    ]
+  },
+  {
+    "source": "state_architectures.py",
+    "sha256": "98869c55e8185aa0045c815f181a7c4bf97e730d01064a0fe3494e08b9160a26",
+    "definitions": [
+      "DeterministicGateMixin"
+    ]
+  },
+  {
+    "source": "srformer_cv_model.py",
+    "sha256": "d44e91e66a8073cff69ba0fe3c5cbf22db9aef679d0e7abf874d88e3fb13fca0",
+    "definitions": [
+      "official_class",
+      "preserve_bn_buffers",
+      "Model",
+      "identity_contrast"
+    ]
+  },
+  {
+    "source": "srformer_history_model.py",
+    "sha256": "947788ab007cfba186d909a41958ec4b2bef76e47c49db70ef3f445e1e3010bc",
+    "definitions": [
+      "Encoder"
+    ]
+  },
+  {
+    "source": "srformer_complex_tanh_stability_20261026.py",
+    "sha256": "172211a68c66316ff28a4acd6a38044c4bbb3a825bd0ee1c946091ed593ea759",
+    "definitions": [
+      "stable_complex_tanh"
+    ]
+  },
+  {
+    "source": "srformer_history_acceleration.py",
+    "sha256": "3fe5801161e172db78782302f885af5e28181786090ddddd335277d0a1eaf7cf",
+    "definitions": [
+      "fourier_block",
+      "fourier_cross"
+    ]
+  },
+  {
+    "source": "prepare_crhe_dataset.py",
+    "sha256": "015b1f96872807cf358991147ca8e97313a4ca715eb437ca10fbfacf2f7e5983",
+    "definitions": [
+      "load_raw",
+      "record_id",
+      "clean",
+      "make_partition"
+    ]
+  }
+]

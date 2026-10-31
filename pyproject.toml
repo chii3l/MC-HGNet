@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mc-hgnet"
+version = "0.1.1"
+description = "Multiband PPG estimation with condition-aware graph fusion and shared historical encoding"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+license = {text = "MIT"}
+dependencies = [
+  "numpy>=1.26,<3", "scipy>=1.13,<2", "pandas>=2.2,<3.1",
+  "scikit-learn>=1.5,<2", "torch==2.5.1", "einops==0.8.2",
+  "timm==0.9.16", "torchvision==0.20.1", "wfdb==4.2.0",
+  "transformers==4.51.3", "huggingface-hub==0.35.3",
+  "matplotlib>=3.9,<4", "PyWavelets>=1.7,<2", "tqdm>=4.66,<5"
+]
+
+[tool.setuptools]
+packages = ["mchgnet"]
+license-files = ["LICENSE", "licenses/*.txt"]
+
+[tool.setuptools.package-data]
+mchgnet = ["resources/configs/*.json", "resources/protocol/*.json"]
+
